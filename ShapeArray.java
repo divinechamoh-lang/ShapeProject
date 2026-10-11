@@ -11,9 +11,12 @@ public class ShapeArray {
         Shape[] shapeArray = {
             new Sphere(5.0),
             new Cylinder(3.0, 7.0),
-            new Cone(4.0, 6.0)
+            new Cone(4.0, 6.0),
+            new Sphere(1.0),
+            new Cylinder(2.5, 10.0),
+            new Cone(3.0, 4.0)
         };
-
+        
         System.out.println("=== Shape Instance Data ===");
         for (Shape shape : shapeArray) {
             System.out.println(shape);
